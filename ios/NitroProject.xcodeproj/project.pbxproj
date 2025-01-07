@@ -12,6 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D6B43DB2D2B9D7A0049192C /* NitroExample+autolinking.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2D6B43D52D2B9D790049192C /* NitroExample+autolinking.rb */; };
+		2D6B43DC2D2B9D7A0049192C /* HybridMathSpec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B43D82D2B9D790049192C /* HybridMathSpec.cpp */; };
+		2D6B43DD2D2B9D7A0049192C /* HybridMathSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B43CF2D2B9D790049192C /* HybridMathSpec.swift */; };
+		2D6B43DE2D2B9D7A0049192C /* HybridMathSpecSwift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B43CD2D2B9D790049192C /* HybridMathSpecSwift.cpp */; };
+		2D6B43DF2D2B9D7A0049192C /* HybridMathSpec_cxx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B43D02D2B9D790049192C /* HybridMathSpec_cxx.swift */; };
+		2D6B43E02D2B9D7A0049192C /* NitroExample-Swift-Cxx-Bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B43D32D2B9D790049192C /* NitroExample-Swift-Cxx-Bridge.cpp */; };
 		7699B88040F8A987B510C191 /* libPods-NitroProject-NitroProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NitroProject-NitroProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		C59C318E5C81C6384BAC6EE9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
@@ -39,6 +45,17 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NitroProject/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = NitroProject/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-NitroProject-NitroProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NitroProject-NitroProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6B43CC2D2B9D790049192C /* HybridMathSpecSwift.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HybridMathSpecSwift.hpp; sourceTree = "<group>"; };
+		2D6B43CD2D2B9D790049192C /* HybridMathSpecSwift.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HybridMathSpecSwift.cpp; sourceTree = "<group>"; };
+		2D6B43CF2D2B9D790049192C /* HybridMathSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridMathSpec.swift; sourceTree = "<group>"; };
+		2D6B43D02D2B9D790049192C /* HybridMathSpec_cxx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridMathSpec_cxx.swift; sourceTree = "<group>"; };
+		2D6B43D22D2B9D790049192C /* NitroExample-Swift-Cxx-Bridge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "NitroExample-Swift-Cxx-Bridge.hpp"; sourceTree = "<group>"; };
+		2D6B43D32D2B9D790049192C /* NitroExample-Swift-Cxx-Bridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "NitroExample-Swift-Cxx-Bridge.cpp"; sourceTree = "<group>"; };
+		2D6B43D42D2B9D790049192C /* NitroExample-Swift-Cxx-Umbrella.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "NitroExample-Swift-Cxx-Umbrella.hpp"; sourceTree = "<group>"; };
+		2D6B43D52D2B9D790049192C /* NitroExample+autolinking.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = "NitroExample+autolinking.rb"; sourceTree = "<group>"; };
+		2D6B43D72D2B9D790049192C /* HybridMathSpec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HybridMathSpec.hpp; sourceTree = "<group>"; };
+		2D6B43D82D2B9D790049192C /* HybridMathSpec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HybridMathSpec.cpp; sourceTree = "<group>"; };
+		2DE7C3002D2B07DE002B4402 /* HybridMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridMath.swift; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-NitroProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroProject.debug.xcconfig"; path = "Target Support Files/Pods-NitroProject/Pods-NitroProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-NitroProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroProject.release.xcconfig"; path = "Target Support Files/Pods-NitroProject/Pods-NitroProject.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-NitroProject-NitroProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroProject-NitroProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-NitroProject-NitroProjectTests/Pods-NitroProject-NitroProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +105,9 @@
 		13B07FAE1A68108700A75B9A /* NitroProject */ = {
 			isa = PBXGroup;
 			children = (
+				2D6B43D62D2B9D790049192C /* ios */,
+				2D6B43DA2D2B9D790049192C /* shared */,
+				2DE7C3002D2B07DE002B4402 /* HybridMath.swift */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -107,6 +127,54 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-NitroProject-NitroProjectTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D6B43CE2D2B9D790049192C /* c++ */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B43CC2D2B9D790049192C /* HybridMathSpecSwift.hpp */,
+				2D6B43CD2D2B9D790049192C /* HybridMathSpecSwift.cpp */,
+			);
+			path = "c++";
+			sourceTree = "<group>";
+		};
+		2D6B43D12D2B9D790049192C /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B43CF2D2B9D790049192C /* HybridMathSpec.swift */,
+				2D6B43D02D2B9D790049192C /* HybridMathSpec_cxx.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		2D6B43D62D2B9D790049192C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B43CE2D2B9D790049192C /* c++ */,
+				2D6B43D12D2B9D790049192C /* swift */,
+				2D6B43D22D2B9D790049192C /* NitroExample-Swift-Cxx-Bridge.hpp */,
+				2D6B43D32D2B9D790049192C /* NitroExample-Swift-Cxx-Bridge.cpp */,
+				2D6B43D42D2B9D790049192C /* NitroExample-Swift-Cxx-Umbrella.hpp */,
+				2D6B43D52D2B9D790049192C /* NitroExample+autolinking.rb */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		2D6B43D92D2B9D790049192C /* c++ */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B43D72D2B9D790049192C /* HybridMathSpec.hpp */,
+				2D6B43D82D2B9D790049192C /* HybridMathSpec.cpp */,
+			);
+			path = "c++";
+			sourceTree = "<group>";
+		};
+		2D6B43DA2D2B9D790049192C /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B43D92D2B9D790049192C /* c++ */,
+			);
+			path = shared;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -245,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				2D6B43DB2D2B9D7A0049192C /* NitroExample+autolinking.rb in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C59C318E5C81C6384BAC6EE9 /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -398,6 +467,11 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				2D6B43DC2D2B9D7A0049192C /* HybridMathSpec.cpp in Sources */,
+				2D6B43DD2D2B9D7A0049192C /* HybridMathSpec.swift in Sources */,
+				2D6B43DE2D2B9D7A0049192C /* HybridMathSpecSwift.cpp in Sources */,
+				2D6B43DF2D2B9D7A0049192C /* HybridMathSpec_cxx.swift in Sources */,
+				2D6B43E02D2B9D7A0049192C /* NitroExample-Swift-Cxx-Bridge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +546,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NitroProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +573,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = NitroProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,10 +660,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -658,10 +729,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
